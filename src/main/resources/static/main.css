@@ -1,0 +1,32 @@
+:root {
+    --main-bg-color: #d8daee;
+    --secondary-bg-color: #f5f5f5;
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background-color: var(--secondary-bg-color);
+}
+
+main {
+    padding: 3rem;
+    border-radius: 15px;
+    background-color: var(--main-bg-color);
+    width: 50%;
+    box-shadow: 0 0 1em var(--main-bg-color);
+}
+
+h1 {
+    font-family: 'Bebas Neue', Arial, cursive;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+p {
+    font-family: 'Montserrat', Arial, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.5;
+}
